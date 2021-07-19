@@ -10,10 +10,10 @@ function init() {
 
     //create img object for food
     food_img= new Image();
-    food_img.src="Assets/apple.png";
+    food_img.src="./assets/apple.png";
 
     trophy_img= new Image();
-    trophy_img.src="Assets/trophy.png";
+    trophy_img.src="./assets/trophy.png";
 
     food=getrandomfood();
 
